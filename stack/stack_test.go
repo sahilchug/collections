@@ -14,7 +14,7 @@ func Test(t *testing.T) {
 	s.Push(1)
 	
 	if s.Len() != 1 {
-		t.Errorf("Length should be 0")
+		t.Errorf("Length should be 1")
 	}
 	
 	if s.Peek().(int) != 1 {
